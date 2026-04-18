@@ -1,0 +1,100 @@
+body{
+    background-color: #1a1d3a;
+    color: #f0f4ff; 
+}
+
+article{
+    display: flex;
+    align-items: flex-start;
+    background-color: #2d1b4e;
+    margin-bottom: 10px;
+}
+
+article img{
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: #2d1b4e;
+}
+
+div.logo {
+    margin-right: 20px;
+    align-content: center;
+}
+
+li.navbar-item {
+    padding: 10px;
+    border-radius: 50%;
+    background-color: #f0f4ff;
+    color: #1a1d3a;
+}
+ul.navbar {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin-left: 20px;
+}
+
+h1.titulo {
+    font-size: 2.5em;
+    margin-left: 20px;
+    align-items: center;
+    font-family: "Bebas Neue", cursive;
+}
+
+img.imagen-promocional {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+section.video-promocional{
+    display: flex;
+    align-items: flex-start;
+    background-color: #2d1b4e;
+   
+}
+
+footer {
+    background-color: #000000;
+    justify-content: center;
+    display: flex;
+    gap: 50%;
+}
+
+p.redes_sociales {
+    color: #f0f4ff;
+}
+
+
+article.reparto{
+    display: flex;
+    align-items: center;      
+    justify-content: space-between; 
+    gap: 20px; 
+    margin-bottom: 10px;
+}
+
+
+article.produccion {
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+    gap: 20px;
+}
+
+
+ul.lista_produccion{
+    flex: 1;
+}
+
+aside{
+    background-color: #3461c2;
+}
