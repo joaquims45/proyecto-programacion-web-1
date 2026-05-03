@@ -28,6 +28,9 @@ nav {
 div.logo {
     margin-right: 20px;
     align-content: center;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 li.navbar-item {
@@ -110,4 +113,5 @@ ul.lista_produccion{
 
 aside{
     background-color: #3461c2;
+    padding: 10px;
 }
