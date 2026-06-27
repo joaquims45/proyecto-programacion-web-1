@@ -1,0 +1,24 @@
+.curiosidades {
+    display: grid;
+    background: #2d1b4e;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 12px;
+}
+
+.curiosidades h1{
+    margin:10px;
+}
+
+.sub_curiosidades {
+    padding: 20px;
+    border-radius: 12px;
+    background-color: #000000;
+    margin: 10px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.sub_curiosidades:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 14px rgba(0, 0, 0, 0.18);
+}

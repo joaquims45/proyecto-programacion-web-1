@@ -1,0 +1,39 @@
+.form-contacto {
+    max-width: 700px;
+    margin: 20px auto 40px;
+    padding: 28px;
+    background-color: #2d1b4e;
+    border-radius: 12px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.25);
+}
+
+.form-grupo {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 18px;
+}
+
+.form-contacto label {
+    margin-bottom: 8px;
+    font-weight: 600;
+    color: #f0f4ff;
+}
+
+.contacto-contenedor {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    align-items: start;
+}
+
+.bloque-formulario{
+    background-color: #1a1d3a;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.bloque-redes {
+    background-color: #1a1d3a;
+    padding: 20px;
+    border-radius: 10px;
+}

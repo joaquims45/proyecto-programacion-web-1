@@ -126,16 +126,6 @@ section.video-promocional iframe {
     border-radius: 6px;
 }
 
-
-
-section.elenco{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 12px;
-    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
-}
-
-
 footer {
     background-color: #000000;
     display: flex;
@@ -160,67 +150,6 @@ p.redes_sociales {
     color: #f0f4ff;
 }
 
-article.reparto {                                                           
-    display: grid;
-    grid-template-areas:
-        "nombre foto"
-        "texto  foto";
-    grid-template-columns: 1fr auto;
-    gap: 8px 16px;
-    border-radius: 12px;
-    padding: 20px;
-    transition: transform 0.2s ease;
-
-}
-
-article.reparto:hover {
-    transform: translateY(-5px);
-}
-
-article.reparto h1 {
-    grid-area: nombre;
-    padding: 0;
-    margin: 0;
-    align-self: end;
-}
-
-article.reparto p {
-    grid-area: texto;
-    margin: 0;
-    align-self: start;
-    line-height: 1.6;
-}
-
-article.reparto img {
-    grid-area: foto;
-    width: 120px;
-    height: 120px;
-    object-fit: cover;
-    border-radius: 8px;
-    align-self: center;
-    transition: transform 0.25s ease;
-
-}
-
-article.reparto:hover img {
-    transform: scale(1.04);
-}
-
-article.produccion {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 20px;
-}
-
-article.produccion img {
-    width: 120px;
-    height: 90px;
-    object-fit: cover;
-    flex-shrink: 0;
-    border-radius: 6px;
-}
-
 ul.lista_produccion {
     flex: 1;
 }
@@ -238,79 +167,9 @@ aside ul {
     margin: 0;
 }
 
-.form-contacto {
-    max-width: 700px;
-    margin: 20px auto 40px;
-    padding: 28px;
-    background-color: #2d1b4e;
-    border-radius: 12px;
-    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.25);
-}
-
-.form-grupo {
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 18px;
-}
-
-.form-contacto label {
-    margin-bottom: 8px;
-    font-weight: 600;
-    color: #f0f4ff;
-}
 
 .redes_sociales {
     color: #f0f4ff;
-}
-
-.curiosidades {
-    display: grid;
-    background: #2d1b4e;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    border-radius: 12px;
-}
-
-.curiosidades h1{
-    margin:10px;
-}
-
-.sub_curiosidades {
-    padding: 20px;
-    border-radius: 12px;
-    background-color: #000000;
-    margin: 10px;
-}
-
-.contacto-contenedor {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 40px;
-    align-items: start;
-}
-
-.bloque-formulario{
-    .bloque-redes {
-    background-color: #1a1d3a;
-    padding: 20px;
-    border-radius: 10px;
-}
-}
-.bloque-redes {
-    background-color: #1a1d3a;
-    padding: 20px;
-    border-radius: 10px;
-}
-
-.error-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-.error-container img {
-    margin-top: 20px;
 }
 
 button {
@@ -322,14 +181,3 @@ button {
     color: #1a1d3a;
     cursor: pointer;
 }
-
-.confirmacion {
-    margin: 20px;
-    padding: 20px;
-    border-radius: 12px;
-    background-color: #2d1b4e;
-    color: #f0f4ff;
-    text-align: center;
-
-}
-
