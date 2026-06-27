@@ -284,3 +284,14 @@ aside ul {
     padding: 20px;
     border-radius: 10px;
 }
+
+.error-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.error-container img {
+    margin-top: 20px;
+}
