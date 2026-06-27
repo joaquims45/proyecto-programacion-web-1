@@ -295,3 +295,16 @@ aside ul {
 .error-container img {
     margin-top: 20px;
 }
+
+button {
+    margin-top: 20px;
+    padding: 10px 12px;
+    border-radius: 8px;
+    border: 1px solid #f0f4ff;
+    background-color: #f0f4ff;
+    color: #1a1d3a;
+    font-weight: 600;
+    font-size: 0.85em;
+    cursor: pointer;
+}
+
