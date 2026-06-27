@@ -31,23 +31,20 @@
 <h1>Contacto</h1>
 <div class="contacto-contenedor">
 <section class="bloque-formulario">
-<form class="form-contacto" action="confirmacion.html" method="post">
-    <label for="nombre" class="form-grupo" placeholder="Nombre">Nombre:</label>
-    <input type="text" id="nombre" name="nombre" required><br>
+<form class="form-contacto" action="confirmacion.html">
+    <label for="nombre" class="form-grupo" >Nombre:</label>
+    <input type="text" id="nombre" name="nombre" required placeholder="Ingrese su nombre"><br>
 
-    <label for="apellido" class="form-grupo" placeholder="Apellido">Apellido:</label>
-    <input type="text" id="apellido" name="apellido" required><br>
+    <label for="apellido" class="form-grupo" >Apellido:</label>
+    <input type="text" id="apellido" name="apellido" required placeholder="Ingrese su apellido"><br>
     
-    <label for="email" class="form-grupo">Email:</label>
-    <input type="email" id="email" name="email" required><br>
-
-    <label for="asunto" class="form-grupo">Asunto:</label>
-    <input type="text" id="asunto" name="asunto" required><br>
+    <label for="email" class="form-grupo">Correo electrónico:</label>
+    <input type="email" id="email" name="email" required placeholder="Ingrese su correo"><br>
 
     <label for="mensaje" class="form-grupo">Mensaje:</label>
-    <textarea id="mensaje" name="mensaje" rows="4" required></textarea><br>
+    <textarea id="mensaje" name="mensaje" rows="4" required placeholder="Ingrese su mensaje"></textarea><br>
 
-    <input type="submit" value="Enviar">
+    <button type="submit" value="Enviar">Enviar</button>
 </form>
 </section>
 
